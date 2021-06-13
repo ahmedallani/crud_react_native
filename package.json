@@ -1,8 +1,8 @@
 {
   "main": "index.js",
-  "type1":"module",
+  "type1": "module",
   "scripts": {
-    "styles":"npx create-tailwind-rn",
+    "styles": "npx create-tailwind-rn",
     "verify": "node --experimental-json-modules tailwind.js",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "autoprefixer": "^9",
+    "metro-react-native-babel-preset": "^0.66.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
