@@ -3801,21 +3801,6 @@
 	"max-w-prose": {
 		"maxWidth": "65ch"
 	},
-	"max-w-screen-sm": {
-		"maxWidth": 640
-	},
-	"max-w-screen-md": {
-		"maxWidth": 768
-	},
-	"max-w-screen-lg": {
-		"maxWidth": 1024
-	},
-	"max-w-screen-xl": {
-		"maxWidth": 1280
-	},
-	"max-w-screen-2xl": {
-		"maxWidth": 1536
-	},
 	"min-h-0": {
 		"minHeight": 0
 	},
