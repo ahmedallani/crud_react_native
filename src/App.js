@@ -1,12 +1,14 @@
 import React from 'react';
 import {SafeAreaView, View, Text} from 'react-native';
 //import tailwind from 'tailwind-rn';
-import {create} from 'tailwind-rn';
-import styles from './styles.json';
+import {tailwind, getColor} from './tailwind';
 
-const {tailwind, getColor} = create(styles);
+// import {create} from 'tailwind-rn';
+// import styles from '../styles.json';
 
-tailwind('text-blue-500 text-opacity-50');
+// const {tailwind, getColor} = create(styles);
+
+
 
 const App = () => (
 	<SafeAreaView style={tailwind('h-full')}>
